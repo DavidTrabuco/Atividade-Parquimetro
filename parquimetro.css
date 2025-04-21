@@ -85,15 +85,3 @@ p{
 button:hover {
     background-color: #d69f00;
 }
-div [id=troco]  {
-    display: none;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-    font-weight: bold;
-}
-div [id=troco]  span {
-    color: #f7a000f8;
-    font-weight: bold;
-}
