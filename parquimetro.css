@@ -1,0 +1,87 @@
+body {
+    background-color: #4b2c2c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 15px;
+    padding: 40px;
+    border: 1px solid #f7a000f8;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: border 0.5s ease;
+
+}
+h1 {
+    color: #ce961e;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px 20px 20px;
+    border-radius: 10px;
+
+}
+label {
+    display: block;
+    font-size: large;
+    margin: 10px 0;
+    color: #ffffff;
+    top: 60%;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: none;
+    outline: none;
+    background: #a87e3f;
+    color: #333;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+select[id="tempo"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: none;
+    outline: none;
+    background: #a87e3f;
+    color: #333;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+button{
+    background-color: #f7a000f8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #d69f00;
+}

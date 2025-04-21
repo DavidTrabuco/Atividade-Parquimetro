@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquimetro</title>
+    <link rel="stylesheet" href="parquimetro.css">
+    <script src="parquimetro.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Parquímetro</h1>
+        <p> <p>30min - R$1,00 <br> 60min - R$1,75 <br> 120min (tempo maximo) - R$3,00</p></p>
+    <div>
+        <label>Tempo (minutos):</label>
+        <select name="tempo" id="tempo">
+            <option value="30min">30</option>
+            <option value="60min">60</option>
+            <option value="120min">120 (tempo máximo)</option>
+        </select>
+        
+    </div>
+    <br>
+    
+    <div>
+        <label>Valor inserido (R$):</label>
+        <input type="number" step="0.01" id="valor" placeholder="Ex: 2.00">
+    </div>
+    <button onclick="calculadora()">Calcular</button>
+    <div id="troco"></div>
+
+    
+</body>
+</html>
