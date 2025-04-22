@@ -13,7 +13,7 @@ class Parquimetro {
         } else if (this.tempoInicio <= 60) {
             return 1.75;
         } else if (this.tempoInicio <= 120) {
-            return 2.50;
+            return 3.00;
         } else {
             return 0; 
         }
